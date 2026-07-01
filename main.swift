@@ -1,34 +1,50 @@
 //
 //  main.swift
-//  Application1
+//  Application8
 //
-//  Created by Amit Kulkarni on 29/06/26.
+//  Created by Amit Kulkarni on 01/07/26.
 //
 
+// protocol
+// - similar to interface in Java
+// - collection of method signatures (without the implementations)
+// terminology
+// - in Java: class implements an interface
+// - in Swift: class conforms to a protocol
 
-// print("Hello, World!")
-
-// declare a variable (mutable)
-var num = 100
-//print(num)
-print("num = ", num)
-
-num = 400
-
-// string interpolation
-print("num = \(num)")
-
-// declare constant (immutable)
-let salary = 56.0
-//print("salary = ", salary)
-debugPrint(salary)
-
-// can not change the value of constant
-//salary = 500
+protocol Shape {
+    func area()
+    func volume()
+}
 
 
-print("one", "two", "three", separator: "-")
+// after :, there must be a super class if any and then the list of protocols if any
+class Rectangle: Shape {
+    func area() {
+        print("area of rectangle")
+    }
+    
+    func volume() {
+        print("volume of rectangle")
+    }
+}
 
-// declare an array
-let numbers = [10, 20, 30, 40, 50]
-dump(numbers)
+class Square: Shape {
+    func area() {
+        print("area of square")
+    }
+    
+    func volume() {
+        print("volume of square")
+    }
+}
+
+// create an object of Rectangle
+let shapeRectangle: Shape = Rectangle()
+shapeRectangle.area()
+shapeRectangle.volume()
+
+// create an object of Square
+let shapeSquare: Shape = Square()
+shapeSquare.area()
+shapeSquare.volume()
