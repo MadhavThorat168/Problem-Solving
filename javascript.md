@@ -1,0 +1,13 @@
+- what is JavaScript?
+- what are the data types supported?
+- what is functional programming language?
+- what is higher order function?
+- what is the closure?
+- what are the ways to create a function?
+- what is function reference?
+- what is currying?
+- what is hoisting?
+- what is browser? and explain its architecture?
+- what is local storage and session storage?
+- what is static and dynamic linking?
+- what is statically typed and dynamically typed language?

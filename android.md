@@ -1,0 +1,27 @@
+- explain android architecture
+- what is ART? what are the benefits of ART with respect to Dalvik?
+- what is Dalvik? what are the differences between dalvik and JRE on desktop?
+- what are the differences between desktop linux kernel and android linux kernel?
+- what is FCM?
+- what are the components of android?
+- what is an activity?
+- explain activity life cycle?
+- what is android.app.Application?
+- what is AndroidManifest.xml?
+- how to set a launcher activity?
+- what is intent? what are the types of intent?
+- what are the contents of intent?
+- what is intent filter?
+- how the first activity is launched?
+- what is a fragment? where are the fragment used?
+- what are the differences between an activity and a fragment?
+- how to add a fragment? what is fragment manager?
+- what is a service?
+- what are the modes in which service can be started? what is the difference between bound and unbound mode?
+- explain service life cycle in both bound and unbound mode?
+- how to communicate with service?
+- what is content provider?
+- what is broadcast receiver? types? differences?
+- what is an apk? how the apk is built?
+- what is ListView? what is recycler view? what are benefits of using recycler view over ListView?
+- what are the common widgets used in android app?

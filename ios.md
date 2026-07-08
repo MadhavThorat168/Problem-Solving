@@ -1,31 +1,15 @@
-# iOS application startup
-
-- when the application starts, it reads the contents of Info.plist
-- it find the name of main storyboard file in the Info.plist (Main.storyboard)
-- it loads the main storyboard file and starts creating the user interface (view controller(s)) configured in the storyboard
-- it creates the object(s) of respective view controller classes and attach them to the view controller UI
-  - the process of loading view controllers from storyboard is known as unarchiving the storybaord file (which is similar to inflating xml file in android)
-
-# launch a view controller
-
-- using segue
-  - using the interface builder to define the navigation in terms of UINavigationSeguae
-- using code
-  - using present-dismiss
-    - to present a view controller
-
-    ```swift
-    let storyboard = UIStoryboard(named: "Main", bundle: nil)
-    let vc = storyboard.instantiateViewController(identifier: "SecondViewController")
-    present(vc, animated: true)
-    ```
-
-    - to dismiss the current view controller
-
-    ```swift
-    dismiss(animated: true)
-    ```
-
-  - using NavigationController
-    - UINavigationController is a subclass of UIViewController used to add navigation in iOS application
-    - set the UINavigationController as initial view controller in the application
+- what is closure in swift?
+- what is iOS in comparison with android?
+- explain iOS architecture?
+- what is APNS?
+- what is a UIViewController?
+- explain mvc?
+- explain view controller life cycle?
+- explain UIApplication life cycle?
+- what is AppDelegate?
+- what is SceneDelegate?
+- explain delegate design pattern
+- what is Info.plist?
+- what are the important frameworks?
+- explain how to render array into UITableView?
+- what is coredata? why not using sqlite directly?
