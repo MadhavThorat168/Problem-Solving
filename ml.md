@@ -1,0 +1,20 @@
+- what is artificial intelligence?
+- what is machine learning?
+- what are the types of machine learning?
+- what are the problems the supervised ml solves?
+- what are the problems the unsupervised ml solves?
+- what is deep learning?
+- what is neural network?
+- what are the layers found in neural network?
+- what are the trade off of using deep learning?
+- what is epoch?
+- what is foreward propagation?
+- what is backpropagation?
+- what is neuron or node? what a neuron contains?
+- what is activation function? give some common activation functions?
+- why deep learning is requried?
+- what is tensorflow? what is tensorflow liteRT?
+- which are famous frameworks are using to create models for mobile inference?
+- what is regression?
+- what is classification?
+- what is context?
