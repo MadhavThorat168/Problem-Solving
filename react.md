@@ -1,0 +1,16 @@
+- what is single page application (SPA)?
+- what is component oriented design?
+- what is a component?
+- what is JSX?
+- what is react? what are the alternatives?
+- what is virtual DOM?
+- what is react hook? what are the commonly used hooks?
+- how to add routing in react? what is Outlet?
+- what is context API?
+- what is redux? what is redux toolkit?
+- what is store, action and reducer in redux?
+- what is state and props?
+- what are types of component?
+- what is axios?
+- what is props drilling? how to avoid props drilling?
+- how to render a list in react?
