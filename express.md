@@ -1,0 +1,13 @@
+- what is express?
+- what is REST?
+- explain http architecture?
+- what are the REST APIs?
+- what is middleware?
+- what is a route?
+- what is request? how many ways to receive input from request?
+- what is response?
+- what cors?
+- what are microservices?
+- how to connect to the database?
+- what is JWT? explain its use and its lifecycle.
+-
